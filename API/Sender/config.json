@@ -1,0 +1,5 @@
+{
+  "name": "Sender",
+  "port": 3100,
+  "route:": "/api/sender/"
+}

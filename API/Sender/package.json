@@ -1,0 +1,25 @@
+{
+  "name": "api",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {},
+  "devDependencies": {
+    "@types/mocha": "^5.2.7",
+    "@types/node": "^12.11.2",
+    "babel-node": "0.0.1-security",
+    "body-parser": "^1.19.0",
+    "chai": "4.2.0",
+    "express": "4.17.1",
+    "mocha": "^6.2.0",
+    "sinon": "7.4.1",
+    "typescript": "^3.4.3",
+    "ts-node": "^8.4.1",
+    "ts-node-test-register": "^8.0.1"
+  },
+  "scripts": {
+    "introduce": "tsc src/introduce.ts",
+    "introduceTS": "ts-node src/introduce.ts",
+    "dev": "babel-node src/index.js",
+    "eject": "react-scripts eject"
+  }
+}
