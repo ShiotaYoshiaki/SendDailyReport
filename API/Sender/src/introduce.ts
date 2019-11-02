@@ -1,4 +1,4 @@
-function introduce(person: string) {
+export default function introduce(person: string) {
     return "Hello, " + person;
 }
 

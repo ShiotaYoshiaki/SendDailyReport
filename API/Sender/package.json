@@ -2,7 +2,9 @@
   "name": "api",
   "version": "0.1.0",
   "private": true,
-  "dependencies": {},
+  "dependencies": {
+    "typedoc": "^0.15.0"
+  },
   "devDependencies": {
     "@types/mocha": "^5.2.7",
     "@types/node": "^12.11.2",
